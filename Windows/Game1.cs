@@ -80,7 +80,7 @@ namespace ResolutionBuddyExample.Windows
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 
 			                  null, null, null, null,
-			                  Resolution.getTransformationMatrix());
+			                  Resolution.TransformationMatrix());
 
 			spriteBatch.Draw(_texture, Vector2.Zero, Color.White);
 
