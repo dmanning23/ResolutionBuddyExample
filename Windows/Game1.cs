@@ -26,8 +26,11 @@ namespace ResolutionBuddyExample.Windows
 			Content.RootDirectory = "Content";
 
 			// Change Virtual Resolution 
+			//Resolution.SetVirtualResolution(320, 240);
+			//Resolution.SetVirtualResolution(640, 480);
 			Resolution.SetVirtualResolution(1024, 768);
-			Resolution.SetResolution(1280, 720, false);
+			//Resolution.SetResolution(320, 240, false);
+			Resolution.SetResolution(1280, 720, true);
 		}
 
         /// <summary>
@@ -49,6 +52,8 @@ namespace ResolutionBuddyExample.Windows
 		{
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
+			//_texture = Content.Load<Texture2D>("alley_320x240");
+			//_texture = Content.Load<Texture2D>("alley_640x480");
 			_texture = Content.Load<Texture2D>("alley_1024x768");
 			//_texture = Content.Load<Texture2D>("Braid_screenshot8");
 		}
@@ -61,7 +66,8 @@ namespace ResolutionBuddyExample.Windows
 		protected override void Update(GameTime gameTime)
 		{
 			// For Mobile devices, this logic will close the Game when the Back button is pressed
-			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+			if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+			    Keyboard.GetState(PlayerIndex.One).IsKeyDown(Keys.Escape))
 			{
 				Exit();
 			}
