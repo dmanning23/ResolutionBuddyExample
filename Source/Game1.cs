@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using ResolutionBuddy;
 using BasicPrimitiveBuddy;
 
-namespace ResolutionBuddyExample.Windows
+namespace ResolutionBuddyExample
 {
 	/// <summary>
     /// This is the main type for your game
