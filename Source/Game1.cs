@@ -22,14 +22,12 @@ namespace ResolutionBuddyExample
 		{
 			graphics = new GraphicsDeviceManager(this);
 			Resolution.Init(ref graphics);
-			titlesafe = new BasicPrimitive(graphics.GraphicsDevice);
 			Content.RootDirectory = "Content";
 
 			// Change Virtual Resolution 
-			//Resolution.SetVirtualResolution(320, 240);
+			Resolution.SetVirtualResolution(320, 240);
 			//Resolution.SetVirtualResolution(640, 480);
-			Resolution.SetVirtualResolution(1024, 768);
-			//Resolution.SetResolution(320, 240, false);
+			//Resolution.SetVirtualResolution(1024, 768);
 			Resolution.SetResolution(1280, 720, true);
 		}
 
@@ -50,11 +48,12 @@ namespace ResolutionBuddyExample
         /// </summary>
 		protected override void LoadContent()
 		{
+			titlesafe = new BasicPrimitive(graphics.GraphicsDevice);
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
-			//_texture = Content.Load<Texture2D>("alley_320x240");
+			_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
-			_texture = Content.Load<Texture2D>("alley_1024x768");
+			//_texture = Content.Load<Texture2D>("alley_1024x768");
 			//_texture = Content.Load<Texture2D>("Braid_screenshot8");
 		}
 
