@@ -26,9 +26,9 @@ namespace ResolutionBuddyExample
 
 			// Change Virtual Resolution 
 
-			Resolution.SetDesiredResolution(320, 240);
+			//Resolution.SetDesiredResolution(320, 240);
 			//Resolution.SetDesiredResolution(640, 480);
-			//Resolution.SetDesiredResolution(1024, 768);
+			Resolution.SetDesiredResolution(1024, 768);
 
 			//Resolution.SetScreenResolution(320, 240, false);
 			Resolution.SetScreenResolution(1280, 720, false);
@@ -53,9 +53,9 @@ namespace ResolutionBuddyExample
 		{
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
-			_texture = Content.Load<Texture2D>("alley_320x240");
+			//_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
-			//_texture = Content.Load<Texture2D>("alley_1024x768");
+			_texture = Content.Load<Texture2D>("alley_1024x768");
 			//_texture = Content.Load<Texture2D>("Braid_screenshot8");
 		}
 
