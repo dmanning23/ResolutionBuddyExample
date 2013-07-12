@@ -1,25 +1,24 @@
 using System;
 using Android.App;
-using Android.Content.PM;
-using Android.OS;
 using Android.Content;
-using Ouya.Console.Api;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.OS;
 using Microsoft.Xna.Framework;
+using Android.Content.PM;
 
-namespace ResolutionBuddyExample.Ouya
+namespace ResolutionBuddyExample.Android
 {
-	[Activity (Label = "ResolutionBuddyExample.Ouya", 
+	[Activity (Label = "ResolutionBuddyExample.Android", 
 	           MainLauncher = true,
 	           Icon = "@drawable/icon",
 	           Theme = "@style/Theme.Splash",
-                   AlwaysRetainTaskState=true,
+                AlwaysRetainTaskState=true,
 	           LaunchMode=LaunchMode.SingleInstance,
-	           ScreenOrientation = ScreenOrientation.Landscape,
 	           ConfigurationChanges = ConfigChanges.Orientation | 
 	                                  ConfigChanges.KeyboardHidden | 
 	                                  ConfigChanges.Keyboard)]
-	[IntentFilter(new[] { Intent.ActionMain }
-            , Categories = new[] { Intent.CategoryLauncher, OuyaIntent.CategoryGame })]
 	public class Activity1 : AndroidGameActivity
 	{
 		protected override void OnCreate(Bundle bundle)

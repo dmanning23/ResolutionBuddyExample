@@ -27,10 +27,10 @@ namespace ResolutionBuddyExample
 
 			//Resolution.SetDesiredResolution(320, 240);
 			//Resolution.SetDesiredResolution(640, 480);
-			Resolution.SetDesiredResolution(1024, 768);
+			Resolution.SetDesiredResolution(1280, 720);
 
-			Resolution.SetScreenResolution(640, 200, false);
-			//Resolution.SetScreenResolution(1280, 720, true);
+			//Resolution.SetScreenResolution(480, 800, false);
+			Resolution.SetScreenResolution(1280, 720, true);
 		}
 
 		/// <summary>
@@ -56,8 +56,8 @@ namespace ResolutionBuddyExample
 
 			//_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
-			_texture = Content.Load<Texture2D>("alley_1024x768");
-			//_texture = Content.Load<Texture2D>("Braid_screenshot8");
+			//_texture = Content.Load<Texture2D>("alley_1024x768");
+			_texture = Content.Load<Texture2D>("Braid_screenshot8");
 		}
 
 		/// <summary>
