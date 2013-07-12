@@ -83,8 +83,12 @@ namespace ResolutionBuddyExample
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw(GameTime gameTime)
 		{
-			Resolution.BeginDraw();
-		
+			// Clear to Black
+			graphics.GraphicsDevice.Clear(Color.Black);
+
+			// Calculate Proper Viewport according to Aspect Ratio
+			Resolution.ResetViewport();
+
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 
 			                  null, null, null, null,
