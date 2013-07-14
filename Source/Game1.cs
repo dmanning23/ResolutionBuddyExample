@@ -20,7 +20,7 @@ namespace ResolutionBuddyExample
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
-			graphics.SupportedOrientations = DisplayOrientation.Default;
+			graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
 			Resolution.Init(ref graphics);
 			Content.RootDirectory = "Content";
 
@@ -87,8 +87,10 @@ namespace ResolutionBuddyExample
 			// Clear to Black
 			graphics.GraphicsDevice.Clear(Color.Black);
 
+#if WINDOWS
 			// Calculate Proper Viewport according to Aspect Ratio
 			Resolution.ResetViewport();
+#endif
 
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 

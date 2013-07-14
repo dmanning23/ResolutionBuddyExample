@@ -14,7 +14,7 @@ namespace ResolutionBuddyExample.Ouya
 	           Theme = "@style/Theme.Splash",
                    AlwaysRetainTaskState=true,
 	           LaunchMode=LaunchMode.SingleInstance,
-	           ScreenOrientation = ScreenOrientation.Landscape,
+	           ScreenOrientation = ScreenOrientation.SensorLandscape,
 	           ConfigurationChanges = ConfigChanges.Orientation | 
 	                                  ConfigChanges.KeyboardHidden | 
 	                                  ConfigChanges.Keyboard)]
