@@ -20,6 +20,7 @@ namespace ResolutionBuddyExample
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
+			graphics.SupportedOrientations = DisplayOrientation.Default;
 			Resolution.Init(ref graphics);
 			Content.RootDirectory = "Content";
 
@@ -30,7 +31,7 @@ namespace ResolutionBuddyExample
 			Resolution.SetDesiredResolution(1280, 720);
 
 			//Resolution.SetScreenResolution(480, 800, false);
-			Resolution.SetScreenResolution(1280, 720, true);
+			Resolution.SetScreenResolution(1920, 1080, true);
 		}
 
 		/// <summary>
