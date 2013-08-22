@@ -20,18 +20,18 @@ namespace ResolutionBuddyExample
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
+			graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
 			Resolution.Init(ref graphics);
-			titlesafe = new BasicPrimitive(graphics.GraphicsDevice);
 			Content.RootDirectory = "Content";
 
 			// Change Virtual Resolution 
 
 			//Resolution.SetDesiredResolution(320, 240);
 			//Resolution.SetDesiredResolution(640, 480);
-			Resolution.SetDesiredResolution(1024, 768);
+			Resolution.SetDesiredResolution(1280, 720);
 
 			//Resolution.SetScreenResolution(320, 300, false);
-			Resolution.SetScreenResolution(1280, 720, false);
+			Resolution.SetScreenResolution(800, 600, false);
 		}
 
 		/// <summary>
@@ -51,13 +51,14 @@ namespace ResolutionBuddyExample
 		/// </summary>
 		protected override void LoadContent()
 		{
+			titlesafe = new BasicPrimitive(graphics.GraphicsDevice);
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
 			//_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
-			_texture = Content.Load<Texture2D>("alley_1024x768");
-			//_texture = Content.Load<Texture2D>("Braid_screenshot8");
+			//_texture = Content.Load<Texture2D>("alley_1024x768");
+			_texture = Content.Load<Texture2D>("Braid_screenshot8");
 		}
 
 		/// <summary>
@@ -83,8 +84,14 @@ namespace ResolutionBuddyExample
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw(GameTime gameTime)
 		{
-			Resolution.BeginDraw();
-		
+			// Clear to Black
+			graphics.GraphicsDevice.Clear(Color.Black);
+
+#if WINDOWS
+			// Calculate Proper Viewport according to Aspect Ratio
+			Resolution.ResetViewport();
+#endif
+
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 
 			                  null, null, null, null,
@@ -100,4 +107,3 @@ namespace ResolutionBuddyExample
 		}
 	}
 }
-

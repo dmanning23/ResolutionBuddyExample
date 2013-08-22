@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("ResolutionBuddyExample.Ouya.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("ResolutionBuddyExample.Android.Resource", IsApplication=true)]
 
-namespace ResolutionBuddyExample.Ouya
+namespace ResolutionBuddyExample.Android
 {
 	
 	
@@ -26,14 +26,14 @@ namespace ResolutionBuddyExample.Ouya
 		
 		public static void UpdateIdValues()
 		{
-			BasicPrimitiveBuddy.Ouya.Resource.Drawable.monoandroidsplash = ResolutionBuddyExample.Ouya.Resource.Drawable.monoandroidsplash;
-			BasicPrimitiveBuddy.Ouya.Resource.Layout.monoandroidsplash = ResolutionBuddyExample.Ouya.Resource.Layout.monoandroidsplash;
-			BasicPrimitiveBuddy.Ouya.Resource.String.library_name = ResolutionBuddyExample.Ouya.Resource.String.library_name;
-			BasicPrimitiveBuddy.Ouya.Resource.Style.Mono_Android_Theme_Splash = ResolutionBuddyExample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
-			ResolutionBuddy.Ouya.Resource.Drawable.monoandroidsplash = ResolutionBuddyExample.Ouya.Resource.Drawable.monoandroidsplash;
-			ResolutionBuddy.Ouya.Resource.Layout.monoandroidsplash = ResolutionBuddyExample.Ouya.Resource.Layout.monoandroidsplash;
-			ResolutionBuddy.Ouya.Resource.String.library_name = ResolutionBuddyExample.Ouya.Resource.String.library_name;
-			ResolutionBuddy.Ouya.Resource.Style.Mono_Android_Theme_Splash = ResolutionBuddyExample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
+			BasicPrimitiveBuddy.Android.Resource.Drawable.monoandroidsplash = ResolutionBuddyExample.Android.Resource.Drawable.monoandroidsplash;
+			BasicPrimitiveBuddy.Android.Resource.Layout.monoandroidsplash = ResolutionBuddyExample.Android.Resource.Layout.monoandroidsplash;
+			BasicPrimitiveBuddy.Android.Resource.String.library_name = ResolutionBuddyExample.Android.Resource.String.library_name;
+			BasicPrimitiveBuddy.Android.Resource.Style.Mono_Android_Theme_Splash = ResolutionBuddyExample.Android.Resource.Style.Mono_Android_Theme_Splash;
+			ResolutionBuddy.Android.Resource.Drawable.monoandroidsplash = ResolutionBuddyExample.Android.Resource.Drawable.monoandroidsplash;
+			ResolutionBuddy.Android.Resource.Layout.monoandroidsplash = ResolutionBuddyExample.Android.Resource.Layout.monoandroidsplash;
+			ResolutionBuddy.Android.Resource.String.library_name = ResolutionBuddyExample.Android.Resource.String.library_name;
+			ResolutionBuddy.Android.Resource.Style.Mono_Android_Theme_Splash = ResolutionBuddyExample.Android.Resource.Style.Mono_Android_Theme_Splash;
 		}
 		
 		public partial class Attribute
