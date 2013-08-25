@@ -31,7 +31,7 @@ namespace ResolutionBuddyExample
 			Resolution.SetDesiredResolution(1280, 720);
 
 			//Resolution.SetScreenResolution(320, 300, false);
-			Resolution.SetScreenResolution(800, 600, false);
+			Resolution.SetScreenResolution(600, 600, false);
 		}
 
 		/// <summary>
@@ -70,7 +70,7 @@ namespace ResolutionBuddyExample
 		{
 			// For Mobile devices, this logic will close the Game when the Back button is pressed
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
-				Keyboard.GetState(PlayerIndex.One).IsKeyDown(Keys.Escape))
+				Keyboard.GetState().IsKeyDown(Keys.Escape))
 			{
 				Exit();
 			}
@@ -99,10 +99,11 @@ namespace ResolutionBuddyExample
 
 			spriteBatch.Draw(_texture, Vector2.Zero, Color.White);
 
+			titlesafe.Thickness = 2.0f;
 			titlesafe.Rectangle(Resolution.TitleSafeArea, Color.Red, spriteBatch);
 
 			spriteBatch.End();
-            
+
 			base.Draw(gameTime);
 		}
 	}
