@@ -5,11 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionBuddyExample.Wind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionBuddy.Windows", "..\externals\ResolutionBuddy\Windows\ResolutionBuddy.Windows.csproj", "{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrimitiveBuddy.Windows", "..\externals\BasicPrimitiveBuddy\Windows\BasicPrimitiveBuddy.Windows.csproj", "{0FAA1286-7BFA-4765-8B51-62E438CB121D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network.Windows", "..\externals\MonoGame\ThirdParty\Lidgren.Network\Lidgren.Network.Windows.csproj", "{AE483C29-042E-4226-BA52-D247CE7676DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.WindowsGL", "..\externals\MonoGame\MonoGame.Framework\MonoGame.Framework.WindowsGL.csproj", "{7DE47032-A904-4C29-BD22-2D235E8D91BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrimitiveBuddy.Windows", "..\externals\BasicPrimitiveBuddy\Windows\BasicPrimitiveBuddy.Windows.csproj", "{0FAA1286-7BFA-4765-8B51-62E438CB121D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,7 +15,7 @@ namespace ResolutionBuddyExample
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 		Texture2D _texture;
-		BasicPrimitive titlesafe;
+		XNABasicPrimitive titlesafe;
 
 		public Game1()
 		{
@@ -51,9 +51,9 @@ namespace ResolutionBuddyExample
 		/// </summary>
 		protected override void LoadContent()
 		{
-			titlesafe = new BasicPrimitive(graphics.GraphicsDevice);
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
+			titlesafe = new XNABasicPrimitive(graphics.GraphicsDevice, spriteBatch);
 
 			//_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
@@ -100,7 +100,7 @@ namespace ResolutionBuddyExample
 			spriteBatch.Draw(_texture, Vector2.Zero, Color.White);
 
 			titlesafe.Thickness = 2.0f;
-			titlesafe.Rectangle(Resolution.TitleSafeArea, Color.Red, spriteBatch);
+			titlesafe.Rectangle(Resolution.TitleSafeArea, Color.Red);
 
 			spriteBatch.End();
 
