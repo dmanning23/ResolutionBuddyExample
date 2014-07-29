@@ -1,15 +1,18 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionBuddyExample.Windows", "ResolutionBuddyExample.Windows.csproj", "{4E2E4F74-C13A-423A-B679-F634405C9BCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionBuddy.Windows", "..\externals\ResolutionBuddy\Windows\ResolutionBuddy.Windows.csproj", "{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network.Windows", "..\externals\MonoGame\ThirdParty\Lidgren.Network\Lidgren.Network.Windows.csproj", "{AE483C29-042E-4226-BA52-D247CE7676DA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.WindowsGL", "..\externals\MonoGame\MonoGame.Framework\MonoGame.Framework.WindowsGL.csproj", "{7DE47032-A904-4C29-BD22-2D235E8D91BA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrimitiveBuddy.Windows", "..\externals\BasicPrimitiveBuddy\Windows\BasicPrimitiveBuddy.Windows.csproj", "{0FAA1286-7BFA-4765-8B51-62E438CB121D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3D57C93D-59F6-4144-B25A-879EA6A53CFB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +20,21 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Debug|x86.ActiveCfg = Debug|x86
-		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Debug|x86.Build.0 = Debug|x86
-		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.ActiveCfg = Release|x86
-		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.Build.0 = Release|x86
-		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Debug|x86.ActiveCfg = Debug|x86
-		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Debug|x86.Build.0 = Debug|x86
-		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Release|x86.ActiveCfg = Release|x86
-		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Release|x86.Build.0 = Release|x86
 		{4E2E4F74-C13A-423A-B679-F634405C9BCA}.Debug|x86.ActiveCfg = Debug|x86
 		{4E2E4F74-C13A-423A-B679-F634405C9BCA}.Debug|x86.Build.0 = Debug|x86
 		{4E2E4F74-C13A-423A-B679-F634405C9BCA}.Release|x86.ActiveCfg = Release|x86
 		{4E2E4F74-C13A-423A-B679-F634405C9BCA}.Release|x86.Build.0 = Release|x86
-		{7DE47032-A904-4C29-BD22-2D235E8D91BA}.Debug|x86.ActiveCfg = Debug|x86
-		{7DE47032-A904-4C29-BD22-2D235E8D91BA}.Debug|x86.Build.0 = Debug|x86
-		{7DE47032-A904-4C29-BD22-2D235E8D91BA}.Release|x86.ActiveCfg = Release|x86
-		{7DE47032-A904-4C29-BD22-2D235E8D91BA}.Release|x86.Build.0 = Release|x86
-		{AE483C29-042E-4226-BA52-D247CE7676DA}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AE483C29-042E-4226-BA52-D247CE7676DA}.Debug|x86.Build.0 = Debug|Any CPU
-		{AE483C29-042E-4226-BA52-D247CE7676DA}.Release|x86.ActiveCfg = Release|Any CPU
-		{AE483C29-042E-4226-BA52-D247CE7676DA}.Release|x86.Build.0 = Release|Any CPU
+		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Debug|x86.ActiveCfg = Debug|x86
+		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Debug|x86.Build.0 = Debug|x86
+		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Release|x86.ActiveCfg = Release|x86
+		{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}.Release|x86.Build.0 = Release|x86
+		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Debug|x86.ActiveCfg = Debug|x86
+		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Debug|x86.Build.0 = Debug|x86
+		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.ActiveCfg = Release|x86
+		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ResolutionBuddyExample.Windows.csproj

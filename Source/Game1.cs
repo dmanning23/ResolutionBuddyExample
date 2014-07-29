@@ -24,14 +24,6 @@ namespace ResolutionBuddyExample
 			Resolution.Init(ref graphics);
 			Content.RootDirectory = "Content";
 
-			// Change Virtual Resolution 
-
-			//Resolution.SetDesiredResolution(320, 240);
-			//Resolution.SetDesiredResolution(640, 480);
-			Resolution.SetDesiredResolution(1280, 720);
-
-			//Resolution.SetScreenResolution(320, 300, false);
-			Resolution.SetScreenResolution(600, 600, false);
 		}
 
 		/// <summary>
@@ -42,6 +34,15 @@ namespace ResolutionBuddyExample
 		/// </summary>
 		protected override void Initialize()
 		{
+			// Change Virtual Resolution 
+
+			//Resolution.SetDesiredResolution(320, 240);
+			//Resolution.SetDesiredResolution(640, 480);
+			Resolution.SetDesiredResolution(1280, 720);
+
+			//Resolution.SetScreenResolution(320, 300, false);
+			Resolution.SetScreenResolution(600, 600, false);
+
 			base.Initialize();
 		}
 
@@ -87,10 +88,8 @@ namespace ResolutionBuddyExample
 			// Clear to Black
 			graphics.GraphicsDevice.Clear(Color.Black);
 
-#if WINDOWS
 			// Calculate Proper Viewport according to Aspect Ratio
 			Resolution.ResetViewport();
-#endif
 
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 
