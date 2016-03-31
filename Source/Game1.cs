@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
 using ResolutionBuddy;
-using BasicPrimitiveBuddy;
+using PrimitiveBuddy;
 
 namespace ResolutionBuddyExample
 {
@@ -15,13 +15,13 @@ namespace ResolutionBuddyExample
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 		Texture2D _texture;
-		XNABasicPrimitive titlesafe;
+		Primitive titlesafe;
 
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
 			graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
-			Resolution.Init(ref graphics);
+			Resolution.Init(graphics);
 			Content.RootDirectory = "Content";
 
 		}
@@ -54,7 +54,7 @@ namespace ResolutionBuddyExample
 		{
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
-			titlesafe = new XNABasicPrimitive(graphics.GraphicsDevice, spriteBatch);
+			titlesafe = new Primitive(graphics.GraphicsDevice, spriteBatch);
 
 			//_texture = Content.Load<Texture2D>("alley_320x240");
 			//_texture = Content.Load<Texture2D>("alley_640x480");
@@ -98,7 +98,7 @@ namespace ResolutionBuddyExample
 
 			spriteBatch.Draw(_texture, Vector2.Zero, Color.White);
 
-			titlesafe.Thickness = 2.0f;
+			titlesafe.Thickness = 3.0f;
 			titlesafe.Rectangle(Resolution.TitleSafeArea, Color.Red);
 
 			spriteBatch.End();
