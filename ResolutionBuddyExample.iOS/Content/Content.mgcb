@@ -1,9 +1,8 @@
+﻿#----------------------------- Global Properties ----------------------------#
 
-#----------------------------- Global Properties ----------------------------#
-
-/outputDir:bin/WindowsGL
-/intermediateDir:obj/WindowsGL
-/platform:WindowsGL
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:iOS
 /config:
 /profile:Reach
 /compress:False
@@ -12,4 +11,3 @@
 
 
 #---------------------------------- Content ---------------------------------#
-
