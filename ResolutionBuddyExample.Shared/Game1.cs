@@ -19,10 +19,8 @@ namespace ResolutionBuddyExample
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
-			graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
 			Resolution.Init(graphics);
 			Content.RootDirectory = "Content";
-
 		}
 
 		/// <summary>
@@ -37,7 +35,8 @@ namespace ResolutionBuddyExample
 
 			//Resolution.SetDesiredResolution(320, 240);
 			//Resolution.SetDesiredResolution(640, 480);
-			Resolution.SetDesiredResolution(1280, 720);
+			//Resolution.SetDesiredResolution(1280, 720);
+			Resolution.SetDesiredResolution(720, 1280);
 
 			//Resolution.SetScreenResolution(320, 300, false);
 			Resolution.SetScreenResolution(600, 600, false);
@@ -101,6 +100,9 @@ namespace ResolutionBuddyExample
 
 			titlesafe.Thickness = 3.0f;
 			titlesafe.Rectangle(Resolution.TitleSafeArea, Color.Red);
+
+			titlesafe.Thickness = 4.0f;
+			titlesafe.Rectangle(Resolution.ScreenArea, Color.Blue);
 
 			spriteBatch.End();
 
