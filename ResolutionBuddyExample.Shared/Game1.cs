@@ -15,33 +15,15 @@ namespace ResolutionBuddyExample
 		SpriteBatch spriteBatch;
 		Texture2D _texture;
 		Primitive titlesafe;
+		IResolution _resolution;
 
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
-			Resolution.Init(graphics);
+
+			_resolution = new ResolutionComponent(this, graphics, new Point(1280, 720), new Point(1280, 720), false, false);
+
 			Content.RootDirectory = "Content";
-		}
-
-		/// <summary>
-		/// Allows the game to perform any initialization it needs to before starting to run.
-		/// This is where it can query for any required services and load any non-graphic
-		/// related content.  Calling base.Initialize will enumerate through any components
-		/// and initialize them as well.
-		/// </summary>
-		protected override void Initialize()
-		{
-			// Change Virtual Resolution 
-
-			//Resolution.SetDesiredResolution(320, 240);
-			//Resolution.SetDesiredResolution(640, 480);
-			//Resolution.SetDesiredResolution(1280, 720);
-			Resolution.SetDesiredResolution(720, 1280);
-
-			//Resolution.SetScreenResolution(320, 300, false);
-			Resolution.SetScreenResolution(600, 600, false);
-
-			base.Initialize();
 		}
 
 		/// <summary>
@@ -87,9 +69,6 @@ namespace ResolutionBuddyExample
 		{
 			// Clear to Black
 			graphics.GraphicsDevice.Clear(Color.Black);
-
-			// Calculate Proper Viewport according to Aspect Ratio
-			Resolution.ResetViewport();
 
 			spriteBatch.Begin(SpriteSortMode.Immediate, 
 			                  BlendState.AlphaBlend, 
