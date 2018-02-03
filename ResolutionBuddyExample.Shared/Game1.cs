@@ -20,8 +20,9 @@ namespace ResolutionBuddyExample
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
+			graphics.SupportedOrientations = DisplayOrientation.Portrait | DisplayOrientation.PortraitDown;
 
-			_resolution = new ResolutionComponent(this, graphics, new Point(1280, 720), new Point(1280, 720), false, false);
+			_resolution = new ResolutionComponent(this, graphics, new Point(720, 1280), new Point(720, 1280), false, false);
 
 			Content.RootDirectory = "Content";
 		}

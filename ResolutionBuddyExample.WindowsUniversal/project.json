@@ -1,14 +1,16 @@
 ﻿{
   "dependencies": {
-    "MatrixExtensions": "1.0.2",
+    "MatrixExtensions": "1.0.3",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "MonoGame.Framework.WindowsUniversal": "3.5.1.1679",
-    "PrimitiveBuddy": "1.0.2",
-    "RandomExtensions.dmanning23": "1.0.3",
-    "ResolutionBuddy": "1.0.6"
+    "MonoGame.Framework.WindowsUniversal": "3.6.0.1625",
+    "PrimitiveBuddy": "1.0.4",
+    "RandomExtensions.dmanning23": "1.0.4",
+    "ResolutionBuddy": "1.0.16",
+    "Vector2Extensions": "1.0.9",
+    "Xam.Plugin.DeviceInfo": "3.1.0"
   },
   "frameworks": {
-    "uap10.0": {}
+    "uap10.0.10586": {}
   },
   "runtimes": {
     "win10-arm": {},

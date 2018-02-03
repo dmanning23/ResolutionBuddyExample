@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ResolutionBuddyExample.WindowsGL
+namespace ResolutionBuddyExample.WindowsDX
 {
 #if WINDOWS || LINUX
     /// <summary>
