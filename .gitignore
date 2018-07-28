@@ -46,6 +46,12 @@ x64/
 UpgradeLog.htm
 project.lock.json
 
+# pixelmator temp files
+._*.png
+._*.pxm
+._*.psd
+._*
+
 # Visual C++ cache files
 .vs/
 ipch/

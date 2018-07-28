@@ -17,6 +17,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems*{3d8decd2-a0e6-4794-bd81-f55779bf1807}*SharedItemsImports = 4
 		ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems*{9d1c47f7-382c-45ff-b92e-0f09a71c14a9}*SharedItemsImports = 4
+		ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems*{adec3e15-d5a9-4676-a4b3-871d24198b0d}*SharedItemsImports = 4
 		ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems*{c8165587-c583-420c-8e8c-5ed4ea9e1331}*SharedItemsImports = 13
 		ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems*{e5f3b875-300f-41c4-bcb2-1b9d86538456}*SharedItemsImports = 4
 	EndGlobalSection
@@ -189,8 +190,8 @@ Global
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.AppStore|x86.ActiveCfg = Release|x86
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.AppStore|x86.Build.0 = Release|x86
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.AppStore|x86.Deploy.0 = Release|x86
-		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|Any CPU.Build.0 = Debug|x86
+		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|ARM.ActiveCfg = Debug|ARM
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|ARM.Build.0 = Debug|ARM
 		{ADEC3E15-D5A9-4676-A4B3-871D24198B0D}.Debug|ARM.Deploy.0 = Debug|ARM
