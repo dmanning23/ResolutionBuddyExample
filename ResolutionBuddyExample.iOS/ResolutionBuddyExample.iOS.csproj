@@ -105,19 +105,19 @@
       <HintPath>..\packages\Xam.Plugin.DeviceInfo.4.1.1\lib\xamarinios10\Plugin.DeviceInfo.dll</HintPath>
     </Reference>
     <Reference Include="PrimitiveBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PrimitiveBuddy.2.0.0\lib\Xamarin.iOS10\PrimitiveBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\PrimitiveBuddy.2.0.1\lib\Xamarin.iOS10\PrimitiveBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="RandomExtensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RandomExtensions.dmanning23.2.0.0\lib\Xamarin.iOS10\RandomExtensions.iOS.dll</HintPath>
+      <HintPath>..\packages\RandomExtensions.dmanning23.2.0.1\lib\Xamarin.iOS10\RandomExtensions.iOS.dll</HintPath>
     </Reference>
     <Reference Include="ResolutionBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ResolutionBuddy.2.0.1\lib\Xamarin.iOS10\ResolutionBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\ResolutionBuddy.2.0.5\lib\Xamarin.iOS10\ResolutionBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Vector2Extensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vector2Extensions.2.0.0\lib\Xamarin.iOS10\Vector2Extensions.iOS.dll</HintPath>
+      <HintPath>..\packages\Vector2Extensions.2.0.2\lib\Xamarin.iOS10\Vector2Extensions.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>

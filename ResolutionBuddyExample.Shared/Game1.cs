@@ -22,7 +22,7 @@ namespace ResolutionBuddyExample
 			graphics = new GraphicsDeviceManager(this);
 			graphics.SupportedOrientations = DisplayOrientation.Portrait | DisplayOrientation.PortraitDown;
 
-			_resolution = new ResolutionComponent(this, graphics, new Point(720, 1280), new Point(720, 1280), false, false);
+			_resolution = new ResolutionComponent(this, graphics, new Point(720, 1280), new Point(720, 1280), false, false, false);
 
 			Content.RootDirectory = "Content";
 		}
