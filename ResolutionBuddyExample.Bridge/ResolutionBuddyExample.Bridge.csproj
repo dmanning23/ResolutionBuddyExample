@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ResolutionBuddyExample.Bridge</RootNamespace>
+    <AssemblyName>ResolutionBuddyExample.Bridge</AssemblyName>
+    <TargetFramework>net47</TargetFramework>
+	<MonoGamePlatform>DesktopGL</MonoGamePlatform>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+	<PackageReference Include="ResolutionBuddy.Bridge" Version="2.0.6" />
+	<PackageReference Include="PrimitiveBuddy.Bridge" Version="2.0.4" />
+	<PackageReference Include="MatrixExtensions.Bridge" Version="2.0.1" />
+	<PackageReference Include="Vector2Extensions.Bridge" Version="2.0.3" />
+	<PackageReference Include="RandomExtensions.Bridge.dmanning23" Version="2.0.2" />
+    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9" />
+    <PackageReference Include="MonoGame.Framework.Bridge" Version="3.7.0.2" />
+    <PackageReference Include="Retyped.dom" Version="2.8.6733" />
+    <PackageReference Include="Bridge" Version="17.3.0" />  
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="bridge.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="..\ResolutionBuddyExample.Shared\ResolutionBuddyExample.Shared.projitems" Label="Shared" />
+</Project>
