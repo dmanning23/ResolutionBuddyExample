@@ -1,0 +1,405 @@
+repo_name: dmanning23/ResolutionBuddyExample
+report_id: f004356208ca4b9456c107007bfdb5c5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T14:44:10+00:00'
+requested_by: dmanning23
+provider: github
+branch: master
+detected_tools_count: 30
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '8.1'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/ResolutionBuddyExample.Android.csproj
+  detection_source: ResolutionBuddyExample.Android/ResolutionBuddyExample.Android.csproj
+  last_updated_by: Dan Manning
+  last_updated_on: 2016-03-31 04:39:26.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.iOS/packages.config
+  detection_source: ResolutionBuddyExample.iOS/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2016-04-09 04:44:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.iOS/packages.config
+  detection_source: ResolutionBuddyExample.iOS/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2016-04-09 04:44:54.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.sln
+  detection_source: ResolutionBuddyExample.sln
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-05-13 22:12:06.000000000 Z
+- name: Bridge
+  description: A C# to JavaScript compiler
+  package_url: https://www.nuget.org/Bridge
+  version: 17.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13723/default_464fb9b438380c5ec98e481823a05b9599991662.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Bridge.Core
+  description: A C# to JavaScript compiler
+  package_url: https://www.nuget.org/Bridge.Core
+  version: 17.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14792/default_ae1180e8a68631d6b9c8f0c9040e58eebb2920fc.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Bridge.Min
+  description: A C# to JavaScript compiler
+  package_url: https://www.nuget.org/Bridge.Min
+  version: 17.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14455/default_2997d988b3d74cd1b8ba1ec222f5f73b189d1dfe.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: MatrixExtensions
+  description: Several extension methods for the MonoGame Matrix class
+  package_url: https://www.nuget.org/MatrixExtensions
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14980/default_a1cf04b1835754674809717530747159e4499835.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: MonoGame.Framework.Android
+  description: MonoGame is an open source implementation of the Microsoft XNA 4.x
+    Framework
+  package_url: https://www.nuget.org/MonoGame.Framework.Android
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13630/default_3e69852d36136f860cbd7840ffb14e3d1b96e265.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: MonoGame.Framework.WindowsDX
+  description: MonoGame is an open source implementation of the Microsoft XNA 4.x
+    Framework
+  package_url: https://www.nuget.org/MonoGame.Framework.WindowsDX
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13523/default_96764b6f9c3f0e632eb68cb4bd063b080ee3b713.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: MonoGame.Framework.iOS
+  description: MonoGame is an open source implementation of the Microsoft XNA 4.x
+    Framework
+  package_url: https://www.nuget.org/MonoGame.Framework.iOS
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13659/default_3e69852d36136f860cbd7840ffb14e3d1b96e265.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.iOS/packages.config
+  detection_source: ResolutionBuddyExample.iOS/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Plugin.CurrentActivity
+  description: Provides a simple solution for getting access to the current Activity
+    of the application when developing a Plugin for Xamarin
+  package_url: https://www.nuget.org/Plugin.CurrentActivity
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14073/default_05b2dd6b2f982b054cffd7be08d3d75e26d46626.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: PrimitiveBuddy
+  description: MonoGame library for drawing primitive shapes
+  package_url: https://www.nuget.org/PrimitiveBuddy
+  version: 2.0.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15154/default_67b382fa8014241c954cded29043c81890c3009a.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: ResolutionBuddy
+  description: Easily manage the window resolution of an MonoGame project
+  package_url: https://www.nuget.org/ResolutionBuddy
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15428/default_659999cff2915806ccf14d600a70864cbda58cdd.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Retyped.Core
+  description: Retyped.Core binding library for Bridge.NET projects
+  package_url: https://www.nuget.org/Retyped.Core
+  version: 1.6.6733
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12890/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Retyped.dom
+  description: DOM binding library for Bridge.NET projects
+  package_url: https://www.nuget.org/Retyped.dom
+  version: 2.8.6733
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13035/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Retyped.es5
+  description: ES5 binding library for Bridge.NET projects
+  package_url: https://www.nuget.org/Retyped.es5
+  version: 2.8.6733
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12942/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Bridge/packages.config
+  detection_source: ResolutionBuddyExample.Bridge/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: SharpDX
+  description: Core assembly for all SharpDX assemblies
+  package_url: https://www.nuget.org/SharpDX
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13411/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.DXGI
+  description: Assembly providing DirectX - DXGI managed API
+  package_url: https://www.nuget.org/SharpDX.DXGI
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13707/default_7e85943e00e5b8451be72dcd9480fe58fa599e72.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.Direct2D1
+  description: Assembly providing DirectX - Direct2D
+  package_url: https://www.nuget.org/SharpDX.Direct2D1
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13598/default_b3a9fa7efbcc92b2b6d42b9fa9afd23454bef416.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.Direct3D11
+  description: Assembly providing DirectX - Direct3D11
+  package_url: https://www.nuget.org/SharpDX.Direct3D11
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13640/default_68f579b2fdb37f974ffe5edb6e34476d1305c023.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.Direct3D9
+  description: Assembly providing DirectX - Direct3D9 managed API
+  package_url: https://www.nuget.org/SharpDX.Direct3D9
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15128/default_dc800e17338bd483f5af86a8fa4848599fb18d34.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.Mathematics
+  description: Assembly providing DirectX - Mathematics managed API
+  package_url: https://www.nuget.org/SharpDX.Mathematics
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14348/default_11623d31c9a0fe3552bdd0ec51d1dc8e7c373f9a.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.MediaFoundation
+  description: Assembly providing DirectX - MediaFoundation managed API
+  package_url: https://www.nuget.org/SharpDX.MediaFoundation
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15656/default_8ecc759a1edcd117364c5cceefb691b1e862d31f.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: SharpDX.XAudio2
+  description: Assembly providing DirectX - XAudio2
+  package_url: https://www.nuget.org/SharpDX.XAudio2
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15001/default_608ee0aff47637bc045274178edebc63c8a3c05e.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: SharpDX.XInput
+  description: Assembly providing DirectX - XInput managed API
+  package_url: https://www.nuget.org/SharpDX.XInput
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15124/default_dc800e17338bd483f5af86a8fa4848599fb18d34.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.WindowsDX/packages.config
+  detection_source: ResolutionBuddyExample.WindowsDX/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
+- name: Vector2Extensions
+  description: Several helpful extensions methods for the Vector2 class in MonoGame
+  package_url: https://www.nuget.org/Vector2Extensions
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14570/default_04c230a7faf108c837aa3e6d645603d730fef980.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2021-11-06 05:28:52.000000000 Z
+- name: Xam.Plugin.DeviceInfo
+  description: Receive information about the device that you are using
+  package_url: https://www.nuget.org/Xam.Plugin.DeviceInfo
+  version: 4.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13956/default_a9a7b32fd5229a51f8bf20984a23500fa9ed2113.png
+  detection_source_url: https://github.com/dmanning23/ResolutionBuddyExample/blob/master/ResolutionBuddyExample.Android/packages.config
+  detection_source: ResolutionBuddyExample.Android/packages.config
+  last_updated_by: Dan Manning
+  last_updated_on: 2019-02-08 23:37:36.000000000 Z
